@@ -431,8 +431,11 @@ body{
   margin-top: -170px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: center;
   padding: 20px;
+}
+.Footer h2{
+    padding-right: 250px;
 }
 .Footer-row{
   display: flex;
