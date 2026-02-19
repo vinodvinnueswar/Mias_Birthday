@@ -1,0 +1,451 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playpen+Sans:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Playpen Sans", cursive;
+    font-optical-sizing: auto;
+    color: rgba(126, 4, 65, 0.826);
+    background-color: rgba(197, 3, 100, 0.466);
+}
+
+/* Intro_Container */
+.Intro_Container{
+    background: url('assets/Images/Birthday_Bg.png');
+    background-size: cover;
+}
+.Intro_Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.text{
+  font-family: "Great Vibes", cursive;
+  font-size: 25px;
+}
+.Intro_Details img{
+    height: 340px;
+}
+.Intro_Details h3{
+    color: goldenrod;
+}
+
+
+/* Invite_Details_Container */
+.Invite_Details_Container{
+  margin-top: -50px;
+    background: url('assets/Images/Birthday_Bg2.png');
+    background-size: cover;
+    text-align: center;
+}
+.Invite_Details_Container h2{
+    padding: 20px;
+    background-color:rgba(126, 4, 65, 0.826);
+    color: white;
+}
+.Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.Details img{
+    height: 300px;
+    width: 300px;
+    border: 5px solid rgba(126, 4, 65, 0.826);
+}
+
+/* Date and Time */
+.Date_Time_Container{
+    height: 500px;
+    background: url('assets/Images/Birthday_Bg.png');
+    background-size: cover;
+}
+.Date_Time_Container h2{
+    padding: 20px;
+    background-color:rgba(126, 4, 65, 0.826);
+    color: white;
+    text-align: center;
+}
+.Date_Time_Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.full_view{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.full_view img{
+    height: 20px;
+    width: 20px;
+}
+
+/* Location */
+.Location_Container{
+    background: url('assets/Images/Birthday_Bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Location_Container h2{
+    padding: 20px;
+    background-color: rgba(126, 4, 65, 0.826);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.Iframe{
+    margin-top: 20px;
+    border: 2px solid rgba(126, 4, 65, 0.826);;
+    padding: 20px;
+}
+.btn-location{
+    border: 2px solid burlywood;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(126, 4, 65, 0.826);
+}
+.btn-location a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Photo_Gallery */
+.Photo_Gallery{
+  background: url('assets/Images/Birthday_Bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Photo_Gallery h2{
+    padding: 20px;
+    background-color:rgba(126, 4, 65, 0.826);
+    color: white;
+    width: 100%;
+}
+.Pictures{
+    margin-top: 20px;
+    padding: 20px;
+}
+.Pics img{
+   height: auto;
+   max-height: 400px;
+   width: 100%;
+   border-radius: 10px;
+   padding: 2px;
+   border: 2px solid rgba(126, 4, 65, 0.826);
+   padding: 20px;
+}
+
+.lg-react-element {
+}
+
+
+/* Best_Wishes */
+.Best_Wishes{
+    height: 500px;
+    background: url('assets/Images/Birthday_BG.png');
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Best_Wishes h2{
+    padding: 20px;
+    background-color:rgba(126, 4, 65, 0.826);
+    color: white;
+    width: 100%;
+}
+.wishes{
+    margin-top: 80px;
+    font-size: 17px;
+    border: 2px solid rgba(126, 4, 65, 0.826);
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+/* Social Share */
+.Social_Share{
+  height: 300px;
+  height: 500px;
+  background: url('assets/Images/Birthday_Bg2.png');
+  background-size: cover;
+  text-align: center;
+}
+.Social_Share h2{
+    padding: 20px;
+    background-color:rgba(126, 4, 65, 0.826);
+    color: white;
+    width: 100%;
+}
+.Media{
+  margin-top: 10px;
+}
+
+/* Footer */
+.Footer{
+  margin-top: -170px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+}
+.Footer-row{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  font-size: 13px;
+}
+.Footer-row a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid burlywood;
+  color: white;
+  background-color: rgba(126, 4, 65, 0.826);
+}
+
+@media (min-width:1025px){
+
+  body{
+    font-size:16px;
+    width: 100%;
+  }
+    .Home{
+    width: 80%;
+  }
+  .Home-page{
+    padding-left: 500px;
+  }
+  /* Intro_Container */
+.Intro_Container{
+    background: url('assets/Images/Birthday_Bg.png');
+    background-size: cover;
+}
+.Intro_Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.text{
+  font-family: "Great Vibes", cursive;
+  font-size: 25px;
+}
+.Intro_Details img{
+    height: 340px;
+}
+.Intro_Details h3{
+    color: goldenrod;
+}
+
+
+/* Invite_Details_Container */
+.Invite_Details_Container{
+  margin-top: -50px;
+    background: url('assets/Images/Birthday_Bg2.png');
+    background-size: cover;
+    text-align: center;
+}
+.Invite_Details_Container h2{
+    padding: 20px;
+    background-color:rgba(126, 4, 65, 0.826);
+    color: white;
+}
+.Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.Details img{
+    height: 300px;
+    width: 300px;
+    border: 5px solid rgba(126, 4, 65, 0.826);
+}
+
+/* Date and Time */
+.Date_Time_Container{
+    height: 500px;
+    background: url('assets/Images/Birthday_Bg.png');
+    background-size: cover;
+}
+.Date_Time_Container h2{
+    padding: 20px;
+    background-color:rgba(126, 4, 65, 0.826);
+    color: white;
+    text-align: center;
+}
+.Date_Time_Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.full_view{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.full_view img{
+    height: 20px;
+    width: 20px;
+}
+
+/* Location */
+.Location_Container{
+    background: url('assets/Images/Birthday_Bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Location_Container h2{
+    padding: 20px;
+    background-color: rgba(126, 4, 65, 0.826);
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.Iframe{
+    margin-top: 20px;
+    border: 2px solid rgba(126, 4, 65, 0.826);;
+    padding: 20px;
+}
+.btn-location{
+    border: 2px solid burlywood;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    background-color: rgba(126, 4, 65, 0.826);
+}
+.btn-location a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Photo_Gallery */
+.Photo_Gallery{
+  background: url('assets/Images/Birthday_Bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.Photo_Gallery h2{
+    padding: 20px;
+    background-color:rgba(126, 4, 65, 0.826);
+    color: white;
+    width: 100%;
+}
+.Pictures{
+    margin-top: 20px;
+    padding: 20px;
+}
+.Pics img{
+   height: auto;
+   max-height: 400px;
+   width: 100%;
+   border-radius: 10px;
+   padding: 2px;
+   border: 2px solid rgba(126, 4, 65, 0.826);
+   padding: 20px;
+}
+
+.lg-react-element {
+}
+
+
+/* Best_Wishes */
+.Best_Wishes{
+    height: 500px;
+    background: url('assets/Images/Birthday_BG.png');
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Best_Wishes h2{
+    padding: 20px;
+    background-color:rgba(126, 4, 65, 0.826);
+    color: white;
+    width: 100%;
+}
+.wishes{
+    margin-top: 80px;
+    font-size: 17px;
+    border: 2px solid rgba(126, 4, 65, 0.826);
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+/* Social Share */
+.Social_Share{
+  height: 300px;
+  height: 500px;
+  background: url('assets/Images/Birthday_Bg2.png');
+  background-size: cover;
+  text-align: center;
+}
+.Social_Share h2{
+    padding: 20px;
+    background-color:rgba(126, 4, 65, 0.826);
+    color: white;
+    width: 100%;
+}
+.Media{
+  margin-top: 10px;
+}
+
+/* Footer */
+.Footer{
+  margin-top: -170px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+}
+.Footer-row{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  font-size: 13px;
+}
+.Footer-row a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid burlywood;
+  color: white;
+  background-color: rgba(126, 4, 65, 0.826);
+}
+}
